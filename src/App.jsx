@@ -38,7 +38,11 @@ const App = () => {
           </tr>
         </thead>
         <tbody>
+        <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tight leading-tight bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text mb-6">
+Created By sandeep</h1>
+
           <UserData users={users} />
+
         </tbody>
       </table>
     </div>
